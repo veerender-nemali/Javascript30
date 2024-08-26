@@ -100,14 +100,18 @@ body {
   /* transition: all 0.5s; */
 }
 
-/* .second-hand {
-  height: 45%;
+.sec-hand {
+  /* height: 40%; */
 }
 
-.minute-hand {
-  height: 40%;
+.min-hand {
+  height: 35%;
+  background: red;
+  top: 15%;
 }
 
 .hour-hand {
   height: 30%;
-} */
+  top: 20%;
+  background: blue;
+}
