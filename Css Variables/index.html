@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Css Variables</title>
+  </head>
+  <body>
+    <h1 class="heading">update css variables with <span>js</span></h1>
+
+    <div class="settings">
+      <label for="spacing">Spacing</label>
+      <input
+        type="range"
+        name="spacing"
+        min="10"
+        max="200"
+        value="10"
+        data-sizing="px"
+      />
+
+      <label for="blur">Blur</label>
+      <input
+        name="blur"
+        type="range"
+        min="0"
+        max="25"
+        value="3"
+        data-sizing="px"
+      />
+
+      <label for="base-color">Base Color</label>
+      <input name="base-color" type="color" value="#ffa500" />
+    </div>
+
+    <img
+      src="https://wallpapers.com/images/featured-full/one-piece-c0pujiakubq5rwas.jpg"
+      width="600px"
+      alt="onepiece image"
+    />
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+:root {
+  --base-color: orange;
+  --spacing: 10px;
+  --blur: 3px;
+}
+
+body {
+  text-align: center;
+}
+
+h1 span {
+  color: var(--base-color);
+}
+
+.heading {
+  text-transform: uppercase;
+}
+
+img {
+  margin-top: 50px;
+  border: var(--spacing) solid var(--base-color);
+  filter: blur(var(--blur));
+}
